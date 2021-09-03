@@ -25,6 +25,7 @@ public class NoteObject : MonoBehaviour
                         ScoringSystem.totalPoint+=25;
                         break;
                 }
+                PointerHandler.state = state;
             }
         }    
     }
@@ -44,9 +45,8 @@ public class NoteObject : MonoBehaviour
         else if (other.tag == "MissPointer")
         {
             canBePressed = false;
-            state = "";
+            PointerHandler.state = "miss";
             ScoringSystem.totalPoint-=25;
-            
         }
     }
 

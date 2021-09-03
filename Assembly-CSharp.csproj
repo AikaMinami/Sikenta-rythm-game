@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\DeleteConfirmPanel.cs" />
      <Compile Include="Assets\Scripts\GameComplete.cs" />
+     <Compile Include="Assets\Scripts\KedhangHandler.cs" />
      <Compile Include="Assets\Scripts\LevelLock.cs" />
      <Compile Include="Assets\Scripts\MainMenuHandler.cs" />
      <Compile Include="Assets\Scripts\MenuAction.cs" />
