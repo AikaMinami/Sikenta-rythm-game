@@ -12,6 +12,10 @@ public class MainMenuHandler : MonoBehaviour
         {
             SceneManager.LoadScene("PlayerPrefs");
             PlayerPrefs.SetInt("FirstTimeOpen", 0);
+        } else if(PlayerPrefs.GetInt("FirstClearTutorial", 1) == 1)
+        {
+            SceneManager.LoadScene("PlayerPrefs");
+            PlayerPrefs.SetInt("FirstClearTutorial", 0);
         }
         
     }

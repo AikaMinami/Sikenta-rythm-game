@@ -11,6 +11,9 @@ TagManager:
   - PerfectPointer
   - AlmostPointer
   - MissPointer
+  - Tak
+  - Dah
+  - Tung
   layers:
   - Default
   - TransparentFX
