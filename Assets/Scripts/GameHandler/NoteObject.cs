@@ -9,13 +9,9 @@ public class NoteObject : MonoBehaviour
     public KeyCode keyToPress;
     public AudioSource audioSource;
     public AudioSource audioMissSource;
-
+    public SpriteRenderer score;
     private SpriteRenderer spriteRenderer;
-    public Sprite pointBtn;
-    public Sprite pressedPts;
-    public Sprite perfectPts;
-    public Sprite goodPts;
-    public Sprite missPts;
+    public Sprite pointBt, pressedPts, perfectPts, goodPts, missPts;
 
     void Start() {
          spriteRenderer = GetComponent<SpriteRenderer>();
@@ -29,10 +25,12 @@ public class NoteObject : MonoBehaviour
                 switch(state)
                 {
                     case "perfect":
-                        ScoringSystem.totalPoint+=50;
+                        ScoringSystem.totalPoint+=100;
+                        StartCoroutine (ChangePoint(perfectPts) );
                         break;
                     case "almost":
-                        ScoringSystem.totalPoint+=25;
+                        ScoringSystem.totalPoint+=50;
+                        StartCoroutine (ChangePoint(goodPts) );
                         break;
                 }
                 gameObject.SetActive(false);
@@ -56,6 +54,7 @@ public class NoteObject : MonoBehaviour
                 canBePressed = false;
                 ScoringSystem.totalPoint-=25;
                 StartCoroutine (ChangePoint(missPts) );
+                gameObject.SetActive(false);
                 audioMissSource.Play(); 
             }
     }
@@ -63,9 +62,9 @@ public class NoteObject : MonoBehaviour
 
     public IEnumerator ChangePoint(Sprite pointPts)
     {
-        spriteRenderer.sprite = pointPts;
+        score.sprite = pointPts;
         yield return new WaitForSeconds (1.0f);
-        spriteRenderer.sprite = null;
+        score.sprite = null;
     }
 
 }

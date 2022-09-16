@@ -28,6 +28,7 @@ public class NoteHandler : MonoBehaviour
             {
                 Time.timeScale = 0f;
                 // transform.position -= new Vector3(0f, 0f, 0f);
+                // Per tung tung tung dah 2,5 bar
             } 
             else 
             {

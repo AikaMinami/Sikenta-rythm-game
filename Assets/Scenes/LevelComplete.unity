@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 451.88, y: 94.4}
-  m_SizeDelta: {x: 691.92, y: 174.2}
+  m_AnchoredPosition: {x: 207.51993, y: 43.550014}
+  m_SizeDelta: {x: 384.9599, y: 87.10005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7220175
 MonoBehaviour:
@@ -195,7 +195,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
-    m_FontSize: 121
+    m_FontSize: 58
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -250,8 +250,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.51996, y: -47.9}
-  m_SizeDelta: {x: 924.7, y: 174.2}
+  m_AnchoredPosition: {x: -183.64, y: -41.05001}
+  m_SizeDelta: {x: 367.27997, y: 82.100006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &277060539
 MonoBehaviour:
@@ -289,18 +289,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
-    m_FontSize: 82
+    m_FontSize: 47
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 121
-    m_Alignment: 0
+    m_Alignment: 5
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Skor Tertinggi :'
+  m_Text: 'Skor Tertinggi :  '
 --- !u!222 &277060541
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -449,8 +449,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -182, y: 94.4}
-  m_SizeDelta: {x: 907, y: 174.2}
+  m_AnchoredPosition: {x: -183.64, y: 46.050007}
+  m_SizeDelta: {x: 367.27002, y: 92.10002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &410265248
 MonoBehaviour:
@@ -488,18 +488,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
-    m_FontSize: 121
+    m_FontSize: 58
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 121
-    m_Alignment: 0
+    m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Skor Kamu :'
+  m_Text: 'Skor Kamu :  '
 --- !u!222 &410265250
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -544,8 +544,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -395.4}
-  m_SizeDelta: {x: 292.6, y: 160}
+  m_AnchoredPosition: {x: 4.19, y: -145}
+  m_SizeDelta: {x: 152.25607, y: 83.2569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625944779
 MonoBehaviour:
@@ -773,7 +773,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
-    m_FontSize: 54
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -904,8 +904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 22.4, y: 153.2}
-  m_SizeDelta: {x: 1281.2, y: 520.7}
+  m_AnchoredPosition: {x: 0.0000076293945, y: 126.4}
+  m_SizeDelta: {x: 799.9999, y: 110.27518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &801103156
 Animation:
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.8679245, g: 0.4598494, b: 0.09006765, a: 0.5}
+  m_EffectColor: {r: 1, g: 0.6952233, b: 0.16037738, a: 0.5}
   m_EffectDistance: {x: 8.03, y: 2.92}
   m_UseGraphicAlpha: 1
 --- !u!114 &801103159
@@ -974,12 +974,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 57f68a8822717a443bab40cf5aae8050, type: 3}
-    m_FontSize: 154
+    m_FontSize: 77
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 171
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1112,8 +1112,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 480.88, y: -47.9}
-  m_SizeDelta: {x: 691.92, y: 174.2}
+  m_AnchoredPosition: {x: 207.51999, y: -41.05001}
+  m_SizeDelta: {x: 384.96002, y: 82.100006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1022610223
 MonoBehaviour:
@@ -1151,12 +1151,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
-    m_FontSize: 82
+    m_FontSize: 47
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 121
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1495,6 +1495,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialPanel: {fileID: 0}
+  tutorialScdPanel: {fileID: 0}
+  textPanelComplete: {fileID: 0}
+  myImage: {fileID: 0}
+  boyImage: {fileID: 0}
+  girlImage: {fileID: 0}
 --- !u!1001 &1870618259
 PrefabInstance:
   m_ObjectHideFlags: 0
